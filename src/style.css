@@ -15,60 +15,35 @@ body {
     font-family: roboto;
 }
 
+.img-wrap {
+    width: 3em;
+    margin-right: 1.5em;
+}
+
+.img-wrap img {
+    width: 100%;
+}
+
 .nav-items {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.nav-items > div {
-    width: 60px;
+.header-title {
+    margin-right: auto;
 }
 
-.nav-items img {
-    width: 100%;
-    height: auto;
-}
-
-.nav-items ul {
-    display: flex;
-    flex-direction: row;
-
-    padding-left: 200px;
-}
-
-.nav-items li {
+.facts {
     list-style: none;
-    padding-right: 10px;
-}
-
-.main-header {
-    font-family: queensides;
 }
 
 .facts li {
-    list-style: none;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 .facts li::before {
     content: "\2022";
     color: cyan;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-}
-
-.footer-container {
-    width: 450px;
-    padding-top: 10px;
-}
-
-.footer-container p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    border: 2px solid cyan;
-
-    width: 450px;
+    margin-right: 0.5em;
 }
