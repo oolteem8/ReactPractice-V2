@@ -8,11 +8,16 @@
     src: url(https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap);
 }
 
+@font-face {
+    font-family: open-sans;
+    src: url(./Fonts/OpenSans-Light.ttf);
+}
+
 body {
     color: rgba(255, 255, 255, 0.897);
     background-color: #000000ee;
 
-    font-family: roboto;
+    font-family: open-sans;
 }
 
 .img-wrap {
@@ -28,6 +33,11 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.main-header {
+    font-family: queensides;
+    letter-spacing: 0.1em;
 }
 
 .header-title {
