@@ -1,6 +1,6 @@
 @font-face {
     font-family: queensides;
-    src: url(./queensides-font/QueensidesLight-ZVj3l.ttf);
+    src: url(./Fonts/QueensidesLight-ZVj3l.ttf);
 }
 
 @font-face {
@@ -17,7 +17,16 @@ body {
     color: rgba(255, 255, 255, 0.897);
     background-color: #000000ee;
 
-    font-family: open-sans;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.main-content {
+    background-color: rgb(34, 34, 34);
 }
 
 .img-wrap {
@@ -36,12 +45,16 @@ body {
 }
 
 .main-header {
-    font-family: queensides;
-    letter-spacing: 0.1em;
+    font-weight: 700;
 }
 
 .header-title {
     margin-right: auto;
+    font-weight: 700;
+}
+
+.header-subtitle {
+    font-weight: 600;
 }
 
 .facts {

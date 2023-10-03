@@ -1,6 +1,8 @@
 export default function MainContent() {
     return (
-        <div>
+        <div class="main-content">
+            <h1 className="main-header">Fun facts about React</h1>
+
             <ul className="facts">
                 <li>Was first released in 2013</li>
                 <li>Was originally created by Jordan Walke</li>
