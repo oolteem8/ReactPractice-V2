@@ -12,3 +12,22 @@
     font-family: open-sans;
     src: url(./Fonts/OpenSans-Light.ttf);
 }
+
+@media screen and (max-width: 600px) {
+    #profile-pic {
+        background-image: url("./Images/Cypher.png");
+        /* background-repeat: no-repeat; */
+        background-position: center;
+        background-position-y: center;
+        background-size: 200%;
+
+        width: 100vw;
+        height: 450px;
+        margin: 0;
+        /* border: 2px solid red; */
+    }
+}
+
+body {
+    margin: 0;
+}
